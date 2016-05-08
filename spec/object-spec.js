@@ -28,7 +28,7 @@ describe('Ferret constructor', function(){
     expect(sugarDaddy.constructor == Ferret).toEqual(true);
     expect(sugarDaddy.name).toEqual("Sugar Daddy");
     expect(sugarDaddy.age).toEqual("2 years");
-    expect(sugarDaddy.foodRequirements).toEqual("raw meat");
+    expect(sugarDaddy.foodRequirement).toEqual("raw meat");
   });
 
 });
@@ -53,6 +53,3 @@ describe('Fish constructor', function(){
   });
 
 });
-
-
-
