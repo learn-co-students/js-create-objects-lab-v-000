@@ -12,7 +12,6 @@ describe('objects', () => {
 
   describe('Dog constructor', function(){
     it("should create a new dog with three properties", function(){
-      debugger;
       var caldwell = new Dog("caldwell", "toy poodle", "4 months");
       expect(caldwell).toBeA(Dog);
       expect(caldwell.name).toEqual("caldwell");
