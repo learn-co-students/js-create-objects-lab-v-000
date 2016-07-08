@@ -1,3 +1,5 @@
+"use strict";
+
 const expect = require('expect');
 const jsdom = require('mocha-jsdom');
 const fs = require('fs');
@@ -62,4 +64,3 @@ describe('objects', () => {
 
   });
 });
-
