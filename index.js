@@ -1,30 +1,30 @@
 'use strict';
 
-var new Dog = {
-  name:
-  breed:
-  age:
+function Dog(name, breed, age){
+  this.name = name
+  this.breed= breed
+  this.age = age
 }
 
-var Cat = {
-  name:
-  breed:
-  age:
+function Cat(name, breed, age){
+  this.name = name
+  this.breed= breed
+  this.age = age
 }
 
-var Ferret = {
-  name:
-  age:
-  foodRequirements:
+function Ferret(name, age, foodRequirements){
+  this.name = name
+  this.age = age
+  this.foodRequirements = foodRequirements
 }
 
-var Bird = {
-  name:
-  breed:
+function Bird(name, breed){
+  this.name = name
+  this.breed = breed
 }
 
-var Fish = {
-  name:
-  species:
-  waterConditions:
+function Fish(name, species, waterConditions){
+  this.name = name
+  this.species = species
+  this.waterConditions = waterConditions
 }
