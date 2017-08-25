@@ -1,4 +1,13 @@
-'use strict';
+// function Sandwich(bread, crust, meat, condiments, veggies, cheese) {
+//   this.breadType = bread;
+//   this.crust = crust;
+//   this.meat = meat;
+//   this.condiments = condiments;
+//   this.veggies = veggies;
+//   this.cheese = cheese;
+// }
+
+// var blt = new Sandwich("white", false, "bacon", "mayo", ["lettuce", "tomato"], "none");
 
 function Dog(name, breed, age){
   this.name = name;
@@ -23,7 +32,7 @@ function Bird(name, breed){
   this.breed = breed;
 }
 
-function Fish(name, species, waterConditions){
+function Fish(name,species, waterConditions){
   this.name = name;
   this.species = species;
   this.waterConditions = waterConditions;
