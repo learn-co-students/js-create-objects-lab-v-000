@@ -4,20 +4,20 @@ function Dog(name, breed, age) {
   // body...
   this.name  =  name;
   this.breed =  breed;
-  this.age   =  age;
+  this.age     =  age;
 }
 
 function Cat(name, breed, age) {
   // body...
   this.name  =  name;
   this.breed =  breed;
-  this.age   =  age;
+  this.age     =  age;
 }
 
 function Ferret(name, age, foodRequirements) {
   // body...
-  this.name             = name;
-  this.age              = age;
+  this.name    = name;
+  this.age       = age;
   this.foodRequirements = foodRequirements;
 }
 
